@@ -3,8 +3,8 @@
 #include <cstdint>
 
 namespace offsets {
-	constexpr uintptr_t uworld_key = 0x86DA078;
-	constexpr uintptr_t uworld_state = 0x86DA040;
+	constexpr uintptr_t uworld_key = 0x83B6978;
+	constexpr uintptr_t uworld_state = 0x83B6940;
 
 	constexpr uintptr_t game_instance = 0x1A8; // world + game_instance // TYPE=uintptr_t
 	constexpr uintptr_t persistent_level = 0x38; // world + persistent_level // TYPE=uintptr_t
@@ -31,7 +31,7 @@ namespace offsets {
 	constexpr uintptr_t component_to_world = 0x250; // mesh_component + component_to_world // TYPE=uintptr_t
 	constexpr uintptr_t root_component = 0x210; // actor + root_component // TYPE=uintptr_t
 	constexpr uintptr_t root_position = 0x164; // root_component + root_position // TYPE=Vector3
-	constexpr uintptr_t damage_handler = 0x928; // actor/local_player_pawn + damage_handler // TYPE=uintptr_t
+	constexpr uintptr_t damage_handler = 0x968; // actor/local_player_pawn + damage_handler // TYPE=uintptr_t
 	constexpr uintptr_t health = 0x1B0; // damage_handler + health // TYPE=float
 	constexpr uintptr_t dormant = 0x100; // actor + dormant // TYPE=bool
 	constexpr uintptr_t player_state = 0x3D0; // actor/local_player_pawn + player_state // TYPE=uintptr_t
